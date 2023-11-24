@@ -1,12 +1,16 @@
 import React from 'react'
+import Card from '../components/Card'
+import Carousel from '../components/Carousel'
 
 const Homepage = () => {
   return (
-<>
-<h1>
-    Hi my name is sakshammmmm!!!
-</h1>
-</>
+    <>
+      <Carousel />
+      <Card />
+      <Card />
+      <Card />
+
+    </>
   )
 }
 
