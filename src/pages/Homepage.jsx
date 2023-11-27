@@ -6,9 +6,9 @@ const Homepage = () => {
   return (
     <>
       <Carousel />
+      {/* <Card />
       <Card />
-      <Card />
-      <Card />
+      <Card /> */}
 
     </>
   )
