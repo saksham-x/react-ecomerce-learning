@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaBeer } from 'react-icons/fa';
+// import { FaBeer } from 'react-icons/fa';
+
 import { FaShoppingCart } from "react-icons/fa";
 
 import { Link } from "react-router-dom";  
@@ -28,7 +29,7 @@ const Header = () => {
 
                         <div className="text-end">
                             <button type="button" className="btn btn-outline-light me-2">Login</button>
-                            <button type="button" className="btn btn-warning">Sign-up</button>
+                            <Link to="/register" className="btn btn-warning">Sign-up</Link>
                              <Link to="/cart"><FaShoppingCart /></Link>  
                         </div>
                     </div>

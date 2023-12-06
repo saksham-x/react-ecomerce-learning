@@ -6,6 +6,8 @@ import Products from './pages/Products';
 import Posts from './pages/Posts';
 import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
+import Register from './pages/Register';
+import Show from './context/Show';
 const MyRoute = () => {
     return (
         <Router>
@@ -17,6 +19,8 @@ const MyRoute = () => {
                     <Route path='/productdetails/:productId' element={<ProductDetails />} />
                     <Route path='/post' element={<Posts/>} />
                     <Route path='/cart' element ={<Cart />} />
+                    <Route path='/register' element ={<Register />} />
+                    <Route path='/context' element ={<Show />} />
                 </Route>
 
             </Routes>
